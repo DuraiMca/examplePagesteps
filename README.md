@@ -1,16 +1,54 @@
-# sampleprogress
+# Steps Screen
 
-A new Flutter project.
+Steps Screen is a Flutter widget that allows you to create a step-by-step wizard-like user interface.
 
-## Getting Started
+## Introduction
 
-This project is a starting point for a Flutter application.
+Steps Screen provides a simple and intuitive way to guide users through a series of steps or tasks. It is particularly useful for onboarding flows, form submissions, and any multi-step processes in your Flutter applications.
 
-A few resources to get you started if this is your first Flutter project:
+![Steps Screen Demo](https://example.com/demo.gif)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Create a step-by-step wizard-like UI with ease.
+- Customizable colors, buttons, and step indicators.
+- Support for both vertical and horizontal layouts.
+- Callbacks for handling completion and individual step changes.
+
+## Installation
+
+To use Steps Screen in your Flutter project, follow these steps:
+
+1. Add the dependency to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  steps_screen: ^1.0.0
+
+  2.Run flutter pub get to fetch the package.
+  3.Import the Steps Screen package in your Dart file:
+
+    import 'package:steps_screen/steps_screen.dart';
+Usage
+To use Steps Screen, create a list of widgets representing each step in the wizard. For example:
+    @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: WizardScreen(
+        widgets: [
+          LoginPage(),
+          RegisterPage(),
+        ],
+        onFinish: () {
+        // customize code 
+        },
+
+      ),
+    ); 
+  }
+  You can customize the appearance of the Steps Screen by providing values for the various parameters such as activeColor, inactiveColor, nextButtonText, finishButtonText, and more.
+
+For detailed usage instructions and examples, please refer to the package documentation.
+
+
+
