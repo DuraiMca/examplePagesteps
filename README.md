@@ -6,7 +6,7 @@ Steps Screen is a Flutter widget that allows you to create a step-by-step wizard
 
 Steps Screen provides a simple and intuitive way to guide users through a series of steps or tasks. It is particularly useful for onboarding flows, form submissions, and any multi-step processes in your Flutter applications.
 
-![Steps Screen Demo](https://example.com/demo.gif)
+![Steps Screen Demo][(https://example.com/demo.gif)](https://raw.githubusercontent.com/DuraiMca/examplePagesteps/master/pagestepup.gif)
 
 ## Features
 
@@ -46,9 +46,7 @@ To use Steps Screen, create a list of widgets representing each step in the wiza
       ),
     ); 
   }
-  You can customize the appearance of the Steps Screen by providing values for the various parameters such as activeColor, inactiveColor, nextButtonText, finishButtonText, and more.
-
-For detailed usage instructions and examples, please refer to the package documentation.
+ 
 
 
 
