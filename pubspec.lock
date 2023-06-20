@@ -115,13 +115,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
-  pageprogress:
-    dependency: "direct dev"
-    description:
-      path: "/home/ibytecode/Durai/Projects/pageprogress"
-      relative: false
-    source: path
-    version: "0.0.1"
   path:
     dependency: transitive
     description:
@@ -193,4 +186,3 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.1.0-63.1.beta <4.0.0"
-  flutter: ">=1.17.0"
